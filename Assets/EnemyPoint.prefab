@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7836270978609688450}
   - component: {fileID: 3443680399310943087}
-  - component: {fileID: -9020948626617474649}
   m_Layer: 0
   m_Name: EnemyPoint
   m_TagString: Untagged
@@ -27,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4703071018653410784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,9 +70,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.12303066, a: 1}
+  m_Color: {r: 0.7254902, g: 0.23529412, b: 1, a: 0.7294118}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -83,21 +82,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-9020948626617474649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4703071018653410784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c1b0280c071c6345aaa472690a3b648, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p1Soft: {fileID: 0}
-  p2Soft: {fileID: 0}
-  p1Strong: {fileID: 0}
-  p2Strong: {fileID: 0}
-  thisTileType: 2
-  location: {x: 0, y: 0}
